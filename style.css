@@ -9,6 +9,16 @@ body {
     border: 1px solid rebeccapurple;
 }
 
+h1 {
+    font-size: 52px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .half {
     width: 50%;
 }
@@ -35,4 +45,38 @@ nav {
     color: red;
     text-decoration: none;
     font-weight: 600;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+button {
+    color: whitesmoke;
+    background-color: #E02C6D;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: 20px;
+    border: none;
+}
+
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
+.camera-back {
+    background-image: url(./images/Circle\ design.svg);
+    height: 99%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-camera {
+    width: 70%;
 }
