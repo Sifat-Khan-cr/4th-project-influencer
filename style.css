@@ -1,0 +1,38 @@
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid rebeccapurple;
+}
+
+.half {
+    width: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.nav-menu {
+    width: 40%;
+}
+
+.menu {
+    list-style-type: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu a {
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+}
